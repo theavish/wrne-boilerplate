@@ -1,5 +1,5 @@
 {
-  "name": "webpack/react/node/express boilerplate",
+  "name": "webpack-react-node-express-boilerplate",
   "version": "1.0.0",
   "description": "Boilerplate for using a React front end, Node/Express on the backend, and Webpack with Babel for bundling.",
   "main": "server/server.js",
