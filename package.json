@@ -1,0 +1,36 @@
+{
+  "name": "webpack/react/node/express boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate for using a React front end, Node/Express on the backend, and Webpack with Babel for bundling.",
+  "main": "server/server.js",
+  "scripts": {
+    "start-server": "node server/server.js",
+    "build-dev": "webpack",
+    "build-prod": "webpack -p",
+    "watch-client": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theavish/wrne-boilerplate.git"
+  },
+  "author": "Avi Samloff <avi.samloff@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/theavish/wrne-boilerplate/issues"
+  },
+  "homepage": "https://github.com/theavish/wrne-boilerplate#readme",
+  "dependencies": {
+    "babel-core": "^6.7.6",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.1.18",
+    "babel-preset-react": "^6.1.18",
+    "express": "^4.13.4",
+    "html-webpack-plugin": "^2.16.0",
+    "morgan": "^1.7.0",
+    "path": "^0.12.7",
+    "react": "^15.0.1",
+    "react-dom": "^15.0.1",
+    "webpack": "^1.12.15",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
